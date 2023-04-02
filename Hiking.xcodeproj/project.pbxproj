@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C6CDE9529DA4573005471AD /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6CDE9429DA4573005471AD /* Hike.swift */; };
 		2C72F1FB29D90AEC00990595 /* HikingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C72F1FA29D90AEC00990595 /* HikingApp.swift */; };
 		2C72F1FD29D90AEC00990595 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C72F1FC29D90AEC00990595 /* ContentView.swift */; };
 		2C72F1FF29D90AEF00990595 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C72F1FE29D90AEF00990595 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C6CDE9429DA4573005471AD /* Hike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hike.swift; sourceTree = "<group>"; };
 		2C72F1F729D90AEC00990595 /* Hiking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hiking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C72F1FA29D90AEC00990595 /* HikingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikingApp.swift; sourceTree = "<group>"; };
 		2C72F1FC29D90AEC00990595 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,6 +73,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C6CDE9329DA4545005471AD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2C6CDE9429DA4573005471AD /* Hike.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		2C72F1EE29D90AEC00990595 = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +104,7 @@
 		2C72F1F929D90AEC00990595 /* Hiking */ = {
 			isa = PBXGroup;
 			children = (
+				2C6CDE9329DA4545005471AD /* Model */,
 				2C72F1FA29D90AEC00990595 /* HikingApp.swift */,
 				2C72F1FC29D90AEC00990595 /* ContentView.swift */,
 				2C72F1FE29D90AEF00990595 /* Assets.xcassets */,
@@ -259,6 +270,7 @@
 			files = (
 				2C72F1FD29D90AEC00990595 /* ContentView.swift in Sources */,
 				2C72F1FB29D90AEC00990595 /* HikingApp.swift in Sources */,
+				2C6CDE9529DA4573005471AD /* Hike.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

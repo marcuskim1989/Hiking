@@ -8,14 +8,12 @@
 import SwiftUI
 
 struct ContentView: View {
+    let hikes = Hike.all()
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        List(self.hikes, id: \.name) {
+            hike in Text(hike.name)
         }
-        .padding()
     }
 }
 
