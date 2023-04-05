@@ -15,6 +15,7 @@
 		2C72F20C29D90AEF00990595 /* HikingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C72F20B29D90AEF00990595 /* HikingTests.swift */; };
 		2C72F21629D90AEF00990595 /* HikingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C72F21529D90AEF00990595 /* HikingUITests.swift */; };
 		2C72F21829D90AEF00990595 /* HikingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C72F21729D90AEF00990595 /* HikingUITestsLaunchTests.swift */; };
+		2C83798729DD20D800748B65 /* HikeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C83798629DD20D800748B65 /* HikeDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		2C72F21129D90AEF00990595 /* HikingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HikingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C72F21529D90AEF00990595 /* HikingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikingUITests.swift; sourceTree = "<group>"; };
 		2C72F21729D90AEF00990595 /* HikingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2C83798629DD20D800748B65 /* HikeDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HikeDetail.swift; path = View/HikeDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				2C72F1FC29D90AEC00990595 /* ContentView.swift */,
 				2C72F1FE29D90AEF00990595 /* Assets.xcassets */,
 				2C72F20029D90AEF00990595 /* Preview Content */,
+				2C83798629DD20D800748B65 /* HikeDetail.swift */,
 			);
 			path = Hiking;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 				2C72F1FD29D90AEC00990595 /* ContentView.swift in Sources */,
 				2C72F1FB29D90AEC00990595 /* HikingApp.swift in Sources */,
 				2C6CDE9529DA4573005471AD /* Hike.swift in Sources */,
+				2C83798729DD20D800748B65 /* HikeDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
